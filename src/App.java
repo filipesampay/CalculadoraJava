@@ -47,6 +47,9 @@ public class App {
                 Resultado = Calc.Multiplicacao(Num, Num2);
                 System.out.println("Resultado da subtração é " + dFormat.format(Resultado));
                 break;
+
+            
         }
+        System.out.println("Bom dia ai nessa porra q eu to curioso");
     } 
 }
