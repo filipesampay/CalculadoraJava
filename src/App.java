@@ -4,6 +4,8 @@ import java.text.DecimalFormat;
 public class App {
 
     public static void main(String[] args) throws Exception {
+        new Interface();
+        
         Scanner Teclado = new Scanner(System.in);
         double Num, Num2;
         String Selecao;
@@ -47,9 +49,7 @@ public class App {
                 Resultado = Calc.Multiplicacao(Num, Num2);
                 System.out.println("Resultado da subtração é " + dFormat.format(Resultado));
                 break;
-
-            
         }
-        System.out.println("Bom dia ai nessa porra q eu to curioso");
+        
     } 
 }
