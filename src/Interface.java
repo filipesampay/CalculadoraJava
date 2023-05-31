@@ -57,7 +57,8 @@ public class Botoes extends JButton{
         panel.add(Multiplicacao);
         panel.add(Divisao);
         panel.add(Igual);
-        
+        //adjksakdjsakdjsa
+        System.out.println("meu pau");
 
     }
 }
